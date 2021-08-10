@@ -1,0 +1,80 @@
+name: Continuous Integration
+
+on: 
+  pull_request:
+    types: [opened, synchronize, reopened]
+  push:
+    branches: [master]
+
+jobs:
+  xcode-build:
+    name: Xcode Build
+    runs-on: macOS-latest
+    strategy:
+      matrix:
+        developer_dir: [
+          "/Applications/Xcode_11.4.app"
+        ]
+        destination: [
+          "platform=macOS",
+          "platform=iOS Simulator,name=iPhone 11", 
+          "platform=tvOS Simulator,name=Apple TV",
+          "platform=watchOS Simulator,name=Apple Watch Series 4 - 44mm"
+        ]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: xcrun xcodebuild build
+      env:
+        DEVELOPER_DIR: "${{ matrix.developer_dir }}/Contents/Developer"
+      run: xcrun xcodebuild build -destination "${{ matrix.destination }}" -project "Differ.xcodeproj" -scheme "Differ"
+
+  xcode-test:
+    name: Xcode Test
+    runs-on: macOS-latest
+    strategy:
+      matrix:
+        developer_dir: [
+          "/Applications/Xcode_11.4.app"
+        ]
+        destination: [
+          "platform=macOS",
+          "platform=iOS Simulator,name=iPhone 11", 
+          "platform=tvOS Simulator,name=Apple TV"
+        ]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: xcrun xcodebuild test
+      env:
+        DEVELOPER_DIR: "${{ matrix.developer_dir }}/Contents/Developer"
+      run: |
+        xcrun xcodebuild test -destination "${{ matrix.destination }}" -project "Differ.xcodeproj" -scheme "Differ"
+        bash <(curl -s https://codecov.io/bash)
+
+  swift-package-manager-test:
+    name: Swift Package Manager
+    runs-on: macOS-latest
+    strategy:
+      matrix:
+        developer_dir: [
+          "/Applications/Xcode_11.4.app"
+        ]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: swift test
+      env:
+        DEVELOPER_DIR: "${{ matrix.developer_dir }}/Contents/Developer"
+      run: swift test
+      
+  cocoapods-verify:
+    name: CocoaPods
+    runs-on: macOS-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Lint CocoaPods specification
+      env:
+        DEVELOPER_DIR: "/Applications/Xcode_11.4.app/Contents/Developer"
+      run: pod lib lint

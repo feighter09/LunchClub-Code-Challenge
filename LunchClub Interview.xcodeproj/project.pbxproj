@@ -9,12 +9,29 @@
 /* Begin PBXBuildFile section */
 		D928E51026C2C81700FA5083 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D928E50F26C2C81700FA5083 /* AppDelegate.swift */; };
 		D928E51226C2C81700FA5083 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D928E51126C2C81700FA5083 /* SceneDelegate.swift */; };
-		D928E51426C2C81700FA5083 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D928E51326C2C81700FA5083 /* ViewController.swift */; };
-		D928E51726C2C81700FA5083 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D928E51526C2C81700FA5083 /* Main.storyboard */; };
 		D928E51926C2C81A00FA5083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D928E51826C2C81A00FA5083 /* Assets.xcassets */; };
 		D928E51C26C2C81A00FA5083 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D928E51A26C2C81A00FA5083 /* LaunchScreen.storyboard */; };
 		D928E52726C2C81A00FA5083 /* LunchClub_InterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D928E52626C2C81A00FA5083 /* LunchClub_InterviewTests.swift */; };
-		D928E53226C2C81A00FA5083 /* LunchClub_InterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D928E53126C2C81A00FA5083 /* LunchClub_InterviewUITests.swift */; };
+		D9D73DD426C2EF99003EAFE7 /* ContactsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D73DD226C2EF99003EAFE7 /* ContactsListViewController.swift */; };
+		D9D73DD526C2EF99003EAFE7 /* ContactsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9D73DD326C2EF99003EAFE7 /* ContactsListViewController.xib */; };
+		D9D73DDB26C2F068003EAFE7 /* Bond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D73DD726C2F068003EAFE7 /* Bond.framework */; };
+		D9D73DDC26C2F068003EAFE7 /* Bond.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D9D73DD726C2F068003EAFE7 /* Bond.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D9D73DDD26C2F068003EAFE7 /* ReactiveKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D73DD826C2F068003EAFE7 /* ReactiveKit.framework */; };
+		D9D73DDE26C2F068003EAFE7 /* ReactiveKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D9D73DD826C2F068003EAFE7 /* ReactiveKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D9D73DDF26C2F068003EAFE7 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D73DD926C2F068003EAFE7 /* Kingfisher.framework */; };
+		D9D73DE026C2F068003EAFE7 /* Kingfisher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D9D73DD926C2F068003EAFE7 /* Kingfisher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D9D73DE126C2F068003EAFE7 /* Differ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D73DDA26C2F068003EAFE7 /* Differ.framework */; };
+		D9D73DE226C2F068003EAFE7 /* Differ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D9D73DDA26C2F068003EAFE7 /* Differ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D9D73DE526C2F076003EAFE7 /* ContactsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D73DE426C2F076003EAFE7 /* ContactsListViewModel.swift */; };
+		D9D73DE826C2F10A003EAFE7 /* ContactsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D73DE626C2F10A003EAFE7 /* ContactsListCell.swift */; };
+		D9D73DE926C2F10A003EAFE7 /* ContactsListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9D73DE726C2F10A003EAFE7 /* ContactsListCell.xib */; };
+		D9D73DEC26C2F1C1003EAFE7 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D73DEB26C2F1C1003EAFE7 /* Array+Extensions.swift */; };
+		D9D73DEE26C2F30D003EAFE7 /* ContactListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D73DED26C2F30D003EAFE7 /* ContactListCoordinator.swift */; };
+		D9D73DF126C2F3B2003EAFE7 /* ContactService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D73DF026C2F3B2003EAFE7 /* ContactService.swift */; };
+		D9D73DF426C2F82C003EAFE7 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D73DF326C2F82C003EAFE7 /* Contact.swift */; };
+		D9D73DF826C3075E003EAFE7 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D73DF626C3075E003EAFE7 /* ContactDetailsViewController.swift */; };
+		D9D73DF926C3075E003EAFE7 /* ContactDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9D73DF726C3075E003EAFE7 /* ContactDetailsViewController.xib */; };
+		D9D73DFB26C30863003EAFE7 /* ContactDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D73DFA26C30863003EAFE7 /* ContactDetailsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,30 +42,52 @@
 			remoteGlobalIDString = D928E50B26C2C81700FA5083;
 			remoteInfo = "LunchClub Interview";
 		};
-		D928E52E26C2C81A00FA5083 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D928E50426C2C81700FA5083 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D928E50B26C2C81700FA5083;
-			remoteInfo = "LunchClub Interview";
-		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D9D73DE326C2F068003EAFE7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D9D73DE226C2F068003EAFE7 /* Differ.framework in Embed Frameworks */,
+				D9D73DDE26C2F068003EAFE7 /* ReactiveKit.framework in Embed Frameworks */,
+				D9D73DE026C2F068003EAFE7 /* Kingfisher.framework in Embed Frameworks */,
+				D9D73DDC26C2F068003EAFE7 /* Bond.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D928E50C26C2C81700FA5083 /* LunchClub Interview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LunchClub Interview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D928E50F26C2C81700FA5083 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D928E51126C2C81700FA5083 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D928E51326C2C81700FA5083 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D928E51626C2C81700FA5083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D928E51826C2C81A00FA5083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D928E51B26C2C81A00FA5083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D928E51D26C2C81A00FA5083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D928E52226C2C81A00FA5083 /* LunchClub InterviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LunchClub InterviewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D928E52626C2C81A00FA5083 /* LunchClub_InterviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchClub_InterviewTests.swift; sourceTree = "<group>"; };
 		D928E52826C2C81A00FA5083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D928E52D26C2C81A00FA5083 /* LunchClub InterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LunchClub InterviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D928E53126C2C81A00FA5083 /* LunchClub_InterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchClub_InterviewUITests.swift; sourceTree = "<group>"; };
-		D928E53326C2C81A00FA5083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D73DD226C2EF99003EAFE7 /* ContactsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListViewController.swift; sourceTree = "<group>"; };
+		D9D73DD326C2EF99003EAFE7 /* ContactsListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactsListViewController.xib; sourceTree = "<group>"; };
+		D9D73DD726C2F068003EAFE7 /* Bond.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bond.framework; path = Carthage/Build/iOS/Bond.framework; sourceTree = "<group>"; };
+		D9D73DD826C2F068003EAFE7 /* ReactiveKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveKit.framework; path = Carthage/Build/iOS/ReactiveKit.framework; sourceTree = "<group>"; };
+		D9D73DD926C2F068003EAFE7 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		D9D73DDA26C2F068003EAFE7 /* Differ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Differ.framework; path = Carthage/Build/iOS/Differ.framework; sourceTree = "<group>"; };
+		D9D73DE426C2F076003EAFE7 /* ContactsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListViewModel.swift; sourceTree = "<group>"; };
+		D9D73DE626C2F10A003EAFE7 /* ContactsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListCell.swift; sourceTree = "<group>"; };
+		D9D73DE726C2F10A003EAFE7 /* ContactsListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactsListCell.xib; sourceTree = "<group>"; };
+		D9D73DEB26C2F1C1003EAFE7 /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		D9D73DED26C2F30D003EAFE7 /* ContactListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListCoordinator.swift; sourceTree = "<group>"; };
+		D9D73DF026C2F3B2003EAFE7 /* ContactService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactService.swift; sourceTree = "<group>"; };
+		D9D73DF326C2F82C003EAFE7 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		D9D73DF626C3075E003EAFE7 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
+		D9D73DF726C3075E003EAFE7 /* ContactDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactDetailsViewController.xib; sourceTree = "<group>"; };
+		D9D73DFA26C30863003EAFE7 /* ContactDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewModel.swift; sourceTree = "<group>"; };
+		D9D73DFE26C30C7A003EAFE7 /* LunchClub Interview.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "LunchClub Interview.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,17 +95,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9D73DE126C2F068003EAFE7 /* Differ.framework in Frameworks */,
+				D9D73DDD26C2F068003EAFE7 /* ReactiveKit.framework in Frameworks */,
+				D9D73DDF26C2F068003EAFE7 /* Kingfisher.framework in Frameworks */,
+				D9D73DDB26C2F068003EAFE7 /* Bond.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D928E51F26C2C81A00FA5083 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D928E52A26C2C81A00FA5083 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,8 +117,8 @@
 			children = (
 				D928E50E26C2C81700FA5083 /* LunchClub Interview */,
 				D928E52526C2C81A00FA5083 /* LunchClub InterviewTests */,
-				D928E53026C2C81A00FA5083 /* LunchClub InterviewUITests */,
 				D928E50D26C2C81700FA5083 /* Products */,
+				D9D73DD626C2F068003EAFE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +127,6 @@
 			children = (
 				D928E50C26C2C81700FA5083 /* LunchClub Interview.app */,
 				D928E52226C2C81A00FA5083 /* LunchClub InterviewTests.xctest */,
-				D928E52D26C2C81A00FA5083 /* LunchClub InterviewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,12 +134,14 @@
 		D928E50E26C2C81700FA5083 /* LunchClub Interview */ = {
 			isa = PBXGroup;
 			children = (
-				D928E50F26C2C81700FA5083 /* AppDelegate.swift */,
-				D928E51126C2C81700FA5083 /* SceneDelegate.swift */,
-				D928E51326C2C81700FA5083 /* ViewController.swift */,
-				D928E51526C2C81700FA5083 /* Main.storyboard */,
+				D9D73DFE26C30C7A003EAFE7 /* LunchClub Interview.entitlements */,
+				D9D73DF526C3073F003EAFE7 /* Contact Details */,
+				D9D73DF226C2F826003EAFE7 /* Models */,
+				D9D73DEF26C2F3A7003EAFE7 /* Services */,
+				D9D73DEA26C2F1B8003EAFE7 /* Extensions */,
+				D9D73DD126C2EF7F003EAFE7 /* Contacts List */,
+				D9D73DD026C2EF79003EAFE7 /* App Launch */,
 				D928E51826C2C81A00FA5083 /* Assets.xcassets */,
-				D928E51A26C2C81A00FA5083 /* LaunchScreen.storyboard */,
 				D928E51D26C2C81A00FA5083 /* Info.plist */,
 			);
 			path = "LunchClub Interview";
@@ -119,13 +156,72 @@
 			path = "LunchClub InterviewTests";
 			sourceTree = "<group>";
 		};
-		D928E53026C2C81A00FA5083 /* LunchClub InterviewUITests */ = {
+		D9D73DD026C2EF79003EAFE7 /* App Launch */ = {
 			isa = PBXGroup;
 			children = (
-				D928E53126C2C81A00FA5083 /* LunchClub_InterviewUITests.swift */,
-				D928E53326C2C81A00FA5083 /* Info.plist */,
+				D928E50F26C2C81700FA5083 /* AppDelegate.swift */,
+				D928E51126C2C81700FA5083 /* SceneDelegate.swift */,
+				D928E51A26C2C81A00FA5083 /* LaunchScreen.storyboard */,
 			);
-			path = "LunchClub InterviewUITests";
+			path = "App Launch";
+			sourceTree = "<group>";
+		};
+		D9D73DD126C2EF7F003EAFE7 /* Contacts List */ = {
+			isa = PBXGroup;
+			children = (
+				D9D73DD226C2EF99003EAFE7 /* ContactsListViewController.swift */,
+				D9D73DD326C2EF99003EAFE7 /* ContactsListViewController.xib */,
+				D9D73DE426C2F076003EAFE7 /* ContactsListViewModel.swift */,
+				D9D73DE626C2F10A003EAFE7 /* ContactsListCell.swift */,
+				D9D73DE726C2F10A003EAFE7 /* ContactsListCell.xib */,
+				D9D73DED26C2F30D003EAFE7 /* ContactListCoordinator.swift */,
+			);
+			path = "Contacts List";
+			sourceTree = "<group>";
+		};
+		D9D73DD626C2F068003EAFE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9D73DD726C2F068003EAFE7 /* Bond.framework */,
+				D9D73DDA26C2F068003EAFE7 /* Differ.framework */,
+				D9D73DD926C2F068003EAFE7 /* Kingfisher.framework */,
+				D9D73DD826C2F068003EAFE7 /* ReactiveKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9D73DEA26C2F1B8003EAFE7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D9D73DEB26C2F1C1003EAFE7 /* Array+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D9D73DEF26C2F3A7003EAFE7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D9D73DF026C2F3B2003EAFE7 /* ContactService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D9D73DF226C2F826003EAFE7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D9D73DF326C2F82C003EAFE7 /* Contact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D9D73DF526C3073F003EAFE7 /* Contact Details */ = {
+			isa = PBXGroup;
+			children = (
+				D9D73DF626C3075E003EAFE7 /* ContactDetailsViewController.swift */,
+				D9D73DF726C3075E003EAFE7 /* ContactDetailsViewController.xib */,
+				D9D73DFA26C30863003EAFE7 /* ContactDetailsViewModel.swift */,
+			);
+			path = "Contact Details";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +234,7 @@
 				D928E50826C2C81700FA5083 /* Sources */,
 				D928E50926C2C81700FA5083 /* Frameworks */,
 				D928E50A26C2C81700FA5083 /* Resources */,
+				D9D73DE326C2F068003EAFE7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,24 +263,6 @@
 			productReference = D928E52226C2C81A00FA5083 /* LunchClub InterviewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D928E52C26C2C81A00FA5083 /* LunchClub InterviewUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D928E53C26C2C81A00FA5083 /* Build configuration list for PBXNativeTarget "LunchClub InterviewUITests" */;
-			buildPhases = (
-				D928E52926C2C81A00FA5083 /* Sources */,
-				D928E52A26C2C81A00FA5083 /* Frameworks */,
-				D928E52B26C2C81A00FA5083 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D928E52F26C2C81A00FA5083 /* PBXTargetDependency */,
-			);
-			name = "LunchClub InterviewUITests";
-			productName = "LunchClub InterviewUITests";
-			productReference = D928E52D26C2C81A00FA5083 /* LunchClub InterviewUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +276,6 @@
 						CreatedOnToolsVersion = 12.5.1;
 					};
 					D928E52126C2C81A00FA5083 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = D928E50B26C2C81700FA5083;
-					};
-					D928E52C26C2C81A00FA5083 = {
 						CreatedOnToolsVersion = 12.5.1;
 						TestTargetID = D928E50B26C2C81700FA5083;
 					};
@@ -221,7 +296,6 @@
 			targets = (
 				D928E50B26C2C81700FA5083 /* LunchClub Interview */,
 				D928E52126C2C81A00FA5083 /* LunchClub InterviewTests */,
-				D928E52C26C2C81A00FA5083 /* LunchClub InterviewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,20 +305,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9D73DF926C3075E003EAFE7 /* ContactDetailsViewController.xib in Resources */,
+				D9D73DE926C2F10A003EAFE7 /* ContactsListCell.xib in Resources */,
 				D928E51C26C2C81A00FA5083 /* LaunchScreen.storyboard in Resources */,
 				D928E51926C2C81A00FA5083 /* Assets.xcassets in Resources */,
-				D928E51726C2C81700FA5083 /* Main.storyboard in Resources */,
+				D9D73DD526C2EF99003EAFE7 /* ContactsListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D928E52026C2C81A00FA5083 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D928E52B26C2C81A00FA5083 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,8 +327,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D928E51426C2C81700FA5083 /* ViewController.swift in Sources */,
+				D9D73DF826C3075E003EAFE7 /* ContactDetailsViewController.swift in Sources */,
+				D9D73DF426C2F82C003EAFE7 /* Contact.swift in Sources */,
+				D9D73DD426C2EF99003EAFE7 /* ContactsListViewController.swift in Sources */,
+				D9D73DEE26C2F30D003EAFE7 /* ContactListCoordinator.swift in Sources */,
+				D9D73DFB26C30863003EAFE7 /* ContactDetailsViewModel.swift in Sources */,
+				D9D73DEC26C2F1C1003EAFE7 /* Array+Extensions.swift in Sources */,
+				D9D73DE526C2F076003EAFE7 /* ContactsListViewModel.swift in Sources */,
+				D9D73DF126C2F3B2003EAFE7 /* ContactService.swift in Sources */,
 				D928E51026C2C81700FA5083 /* AppDelegate.swift in Sources */,
+				D9D73DE826C2F10A003EAFE7 /* ContactsListCell.swift in Sources */,
 				D928E51226C2C81700FA5083 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,14 +349,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D928E52926C2C81A00FA5083 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D928E53226C2C81A00FA5083 /* LunchClub_InterviewUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -288,22 +357,9 @@
 			target = D928E50B26C2C81700FA5083 /* LunchClub Interview */;
 			targetProxy = D928E52326C2C81A00FA5083 /* PBXContainerItemProxy */;
 		};
-		D928E52F26C2C81A00FA5083 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D928E50B26C2C81700FA5083 /* LunchClub Interview */;
-			targetProxy = D928E52E26C2C81A00FA5083 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D928E51526C2C81700FA5083 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D928E51626C2C81700FA5083 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D928E51A26C2C81A00FA5083 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,8 +492,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "LunchClub Interview/LunchClub Interview.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4KG26Y879R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "LunchClub Interview/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,6 +508,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Debug;
 		};
@@ -455,8 +517,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "LunchClub Interview/LunchClub Interview.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4KG26Y879R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "LunchClub Interview/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,6 +533,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Release;
 		};
@@ -513,46 +581,6 @@
 			};
 			name = Release;
 		};
-		D928E53D26C2C81A00FA5083 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4KG26Y879R;
-				INFOPLIST_FILE = "LunchClub InterviewUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lostinflight.LunchClub-InterviewUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "LunchClub Interview";
-			};
-			name = Debug;
-		};
-		D928E53E26C2C81A00FA5083 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4KG26Y879R;
-				INFOPLIST_FILE = "LunchClub InterviewUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lostinflight.LunchClub-InterviewUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "LunchClub Interview";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -579,15 +607,6 @@
 			buildConfigurations = (
 				D928E53A26C2C81A00FA5083 /* Debug */,
 				D928E53B26C2C81A00FA5083 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D928E53C26C2C81A00FA5083 /* Build configuration list for PBXNativeTarget "LunchClub InterviewUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D928E53D26C2C81A00FA5083 /* Debug */,
-				D928E53E26C2C81A00FA5083 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

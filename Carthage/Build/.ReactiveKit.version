@@ -1,0 +1,11 @@
+{
+  "commitish" : "v3.18.2",
+  "iOS" : [
+    {
+      "hash" : "ff5e020d1e34f8d80eb71831aa3edb19b0bd2758680ab2561bc7fb2dc40a6239",
+      "name" : "ReactiveKit",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
+    }
+  ]
+}

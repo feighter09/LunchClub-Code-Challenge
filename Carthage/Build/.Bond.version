@@ -1,0 +1,11 @@
+{
+  "commitish" : "7.8.1",
+  "iOS" : [
+    {
+      "hash" : "47ae27667ba0cfb79377e3bc630ce5f8c99e2e29747183f405dfab9428a2fcd3",
+      "name" : "Bond",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
+    }
+  ]
+}

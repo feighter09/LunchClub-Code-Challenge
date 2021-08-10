@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ContactsListViewController" customModule="LunchClub_Interview" customModuleProvider="target">
+            <connections>
+                <outlet property="searchBar" destination="1UE-Lk-Y2E" id="Rhr-2a-cdT"/>
+                <outlet property="tableView" destination="Cgl-fV-lm2" id="Ggi-HL-Cbz"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Cgl-fV-lm2">
+                    <rect key="frame" x="0.0" y="95" width="414" height="767"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="1UE-Lk-Y2E">
+                    <rect key="frame" x="0.0" y="44" width="414" height="51"/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="1UE-Lk-Y2E" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="93m-rt-NMS"/>
+                <constraint firstItem="1UE-Lk-Y2E" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="B6m-vn-Q4X"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Cgl-fV-lm2" secondAttribute="bottom" id="B7z-f2-ZIX"/>
+                <constraint firstItem="Cgl-fV-lm2" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="FHw-Kt-rHZ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Cgl-fV-lm2" secondAttribute="trailing" id="KX9-Te-lrR"/>
+                <constraint firstItem="Cgl-fV-lm2" firstAttribute="top" secondItem="1UE-Lk-Y2E" secondAttribute="bottom" id="S4n-So-bCw"/>
+                <constraint firstItem="1UE-Lk-Y2E" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="tnn-9b-XZT"/>
+            </constraints>
+            <point key="canvasLocation" x="-46.376811594202906" y="-21.428571428571427"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

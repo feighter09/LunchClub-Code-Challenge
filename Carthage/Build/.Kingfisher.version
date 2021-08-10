@@ -1,0 +1,11 @@
+{
+  "commitish" : "6.3.1",
+  "iOS" : [
+    {
+      "hash" : "18a68ab4cd2a7b3bb9fbfa316e0eb81358d6c0c5d2701c2830d874c8ef3a078f",
+      "name" : "Kingfisher",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
+    }
+  ]
+}
